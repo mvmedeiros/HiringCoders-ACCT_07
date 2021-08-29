@@ -1,0 +1,877 @@
+{
+    //criação do layout
+    "slider-layout#time": {
+        "props": {
+            //quantidade de itens apresentados por página dependendo do dispositivo utilizado, neste caso, são 5 colaboradores por página de desktop/computador de mesa
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true, //controle de deslize é infinito
+            "showNavigationArrows": "desktopOnly", //apresenta as setas do slide apenas se o usuário estiver conectado à desktop
+            "showPaginationDots": "never" //não apresenta os pontos de navegação do slide
+        },
+        "children": [
+            //filhos do slide principal, basicamente os containers que teremos para as linhas, para cada container teremos o seguinte padrão → 1ª linha: imagem do colaborador; 2º linha: nome do colaborador; 3ª linha: função do colaborador
+            "slider-layout-group#1",
+            "slider-layout-group#2",
+            "slider-layout-group#3",
+            "slider-layout-group#4",
+            "slider-layout-group#5",
+            "slider-layout-group#6",
+            "slider-layout-group#7",
+            "slider-layout-group#8",
+            "slider-layout-group#9",
+            "slider-layout-group#10",
+            "slider-layout-group#11",
+            "slider-layout-group#12",
+            "slider-layout-group#13",
+            "slider-layout-group#14",
+            "slider-layout-group#15",
+            "slider-layout-group#16",
+            "slider-layout-group#17",
+            "slider-layout-group#18",
+            "slider-layout-group#19"
+        ]
+    },
+    /*INICIO 1º COLABORADOR*/
+    "slider-layout-group#1": {
+        "props": {
+            "callToActionMode": "none"
+        },
+        "children": [
+            "flex-layout.row#image1",
+            "flex-layout.row#name1",
+            "flex-layout.row#function1"
+        ]
+    },
+    "flex-layout.row#image1": {
+        "children": [
+            "image#time1"
+        ]
+    },
+    "image#time1": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/frederico-heitmann-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name1": {
+        "children": [
+            "rich-text#nome1"
+        ]
+    },
+    "rich-text#nome1": {
+        "props": {
+            "text": "Frederico Heitmann",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function1": {
+        "children": [
+            "rich-text#funcao1"
+        ]
+    },
+    "rich-text#funcao1": {
+        "props": {
+            "text": "CEO & Partner",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 1º COLABORADOR*/
+    /*INICIO 2º COLABORADOR*/
+    "slider-layout-group#2": {
+        "children": [
+            "flex-layout.row#image2",
+            "flex-layout.row#name2",
+            "flex-layout.row#function2"
+        ]
+    },
+    "flex-layout.row#image2": {
+        "children": [
+            "image#time2"
+        ]
+    },
+    "image#time2": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/fabio-feichtinger-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name2": {
+        "children": [
+            "rich-text#nome2"
+        ]
+    },
+    "rich-text#nome2": {
+        "props": {
+            "text": "Fábio Feichtinger",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function2": {
+        "children": [
+            "rich-text#funcao2"
+        ]
+    },
+    "rich-text#funcao2": {
+        "props": {
+            "text": "CTO & Partner",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 2º COLABORADOR*/
+    /*INICIO 3º COLABORADOR*/
+    "slider-layout-group#3": {
+        "children": [
+            "flex-layout.row#image3",
+            "flex-layout.row#name3",
+            "flex-layout.row#function3"
+        ]
+    },
+    "flex-layout.row#image3": {
+        "children": [
+            "image#time3"
+        ]
+    },
+    "image#time3": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/andre-dudek-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name3": {
+        "children": [
+            "rich-text#nome3"
+        ]
+    },
+    "rich-text#nome3": {
+        "props": {
+            "text": "André Dudek",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function3": {
+        "children": [
+            "rich-text#funcao3"
+        ]
+    },
+    "rich-text#funcao3": {
+        "props": {
+            "text": "Director & Partner",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 3º COLABORADOR*/
+    /*INICIO 4º COLABORADOR*/
+    "slider-layout-group#4": {
+        "children": [
+            "flex-layout.row#image4",
+            "flex-layout.row#name4",
+            "flex-layout.row#function4"
+        ]
+    },
+    "flex-layout.row#image4": {
+        "children": [
+            "image#time4"
+        ]
+    },
+    "image#time4": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/fatima-raizaro-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name4": {
+        "children": [
+            "rich-text#nome4"
+        ]
+    },
+    "rich-text#nome4": {
+        "props": {
+            "text": "Fátima Raizaro",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function4": {
+        "children": [
+            "rich-text#funcao4"
+        ]
+    },
+    "rich-text#funcao4": {
+        "props": {
+            "text": "Head of RH",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 4º COLABORADOR*/
+    /*INICIO 5º COLABORADOR*/
+    "slider-layout-group#5": {
+        "children": [
+            "flex-layout.row#image5",
+            "flex-layout.row#name5",
+            "flex-layout.row#function5"
+        ]
+    },
+    "flex-layout.row#image5": {
+        "children": [
+            "image#time5"
+        ]
+    },
+    "image#time5": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/juan-nader-150x150.jpg",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name5": {
+        "children": [
+            "rich-text#nome5"
+        ]
+    },
+    "rich-text#nome5": {
+        "props": {
+            "text": "Juan Nader",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function5": {
+        "children": [
+            "rich-text#funcao5"
+        ]
+    },
+    "rich-text#funcao5": {
+        "props": {
+            "text": "Head of Marketing",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 5º COLABORADOR*/
+    /*INICIO 6º COLABORADOR*/
+    "slider-layout-group#6": {
+        "children": [
+            "flex-layout.row#image6",
+            "flex-layout.row#name6",
+            "flex-layout.row#function6"
+        ]
+    },
+    "flex-layout.row#image6": {
+        "children": [
+            "image#time6"
+        ]
+    },
+    "image#time6": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/anna-chimenes-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name6": {
+        "children": [
+            "rich-text#nome6"
+        ]
+    },
+    "rich-text#nome6": {
+        "props": {
+            "text": "Anna Chimenes",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function6": {
+        "children": [
+            "rich-text#funcao6"
+        ]
+    },
+    "rich-text#funcao6": {
+        "props": {
+            "text": "Head de Controladoria e Backoffice",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 6º COLABORADOR*/
+    /*INICIO 7º COLABORADOR*/
+    "slider-layout-group#7": {
+        "children": [
+            "flex-layout.row#image7",
+            "flex-layout.row#name7",
+            "flex-layout.row#function7"
+        ]
+    },
+    "flex-layout.row#image7": {
+        "children": [
+            "image#time7"
+        ]
+    },
+    "image#time7": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/marcos-cipriani-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name7": {
+        "children": [
+            "rich-text#nome7"
+        ]
+    },
+    "rich-text#nome7": {
+        "props": {
+            "text": "Marcos Cipriani",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function7": {
+        "children": [
+            "rich-text#funcao7"
+        ]
+    },
+    "rich-text#funcao7": {
+        "props": {
+            "text": "General Manager Europe",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 7º COLABORADOR*/
+    /*INICIO 8º COLABORADOR*/
+    "slider-layout-group#8": {
+        "children": [
+            "flex-layout.row#image8",
+            "flex-layout.row#name8",
+            "flex-layout.row#function8"
+        ]
+    },
+    "flex-layout.row#image8": {
+        "children": [
+            "image#time8"
+        ]
+    },
+    "image#time8": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/rafael-esberard-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name8": {
+        "children": [
+            "rich-text#nome8"
+        ]
+    },
+    "rich-text#nome8": {
+        "props": {
+            "text": "Rafael Esberard",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function8": {
+        "children": [
+            "rich-text#funcao8"
+        ]
+    },
+    "rich-text#funcao8": {
+        "props": {
+            "text": "SVP of Global Sales",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 8º COLABORADOR*/
+    /*INICIO 9º COLABORADOR*/
+    "slider-layout-group#9": {
+        "children": [
+            "flex-layout.row#image9",
+            "flex-layout.row#name9",
+            "flex-layout.row#function9"
+        ]
+    },
+    "flex-layout.row#image9": {
+        "children": [
+            "image#time9"
+        ]
+    },
+    "image#time9": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/carlos-oliveira-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name9": {
+        "children": [
+            "rich-text#nome9"
+        ]
+    },
+    "rich-text#nome9": {
+        "props": {
+            "text": "Carlos Oliveira",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function9": {
+        "children": [
+            "rich-text#funcao9"
+        ]
+    },
+    "rich-text#funcao9": {
+        "props": {
+            "text": "Sales Manager Brazil",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 9º COLABORADOR*/
+    /*INICIO 10º COLABORADOR*/
+    "slider-layout-group#10": {
+        "children": [
+            "flex-layout.row#image10",
+            "flex-layout.row#name10",
+            "flex-layout.row#function10"
+        ]
+    },
+    "flex-layout.row#image10": {
+        "children": [
+            "image#time10"
+        ]
+    },
+    "image#time10": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/cecilia-pereira-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name10": {
+        "children": [
+            "rich-text#nome10"
+        ]
+    },
+    "rich-text#nome10": {
+        "props": {
+            "text": "Cecília Pereira",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function10": {
+        "children": [
+            "rich-text#funcao10"
+        ]
+    },
+    "rich-text#funcao10": {
+        "props": {
+            "text": "Head of Trainning and Development",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 10º COLABORADOR*/
+    /*INICIO 11º COLABORADOR*/
+    "slider-layout-group#11": {
+        "children": [
+            "flex-layout.row#image11",
+            "flex-layout.row#name11",
+            "flex-layout.row#function11"
+        ]
+    },
+    "flex-layout.row#image11": {
+        "children": [
+            "image#time11"
+        ]
+    },
+    "image#time11": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/urania-reis-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name11": {
+        "children": [
+            "rich-text#nome11"
+        ]
+    },
+    "rich-text#nome11": {
+        "props": {
+            "text": "Urânia Reis",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function11": {
+        "children": [
+            "rich-text#funcao11"
+        ]
+    },
+    "rich-text#funcao11": {
+        "props": {
+            "text": "Head of Quality Assurance",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 11º COLABORADOR*/
+    /*INICIO 12º COLABORADOR*/
+    "slider-layout-group#12": {
+        "children": [
+            "flex-layout.row#image12",
+            "flex-layout.row#name12",
+            "flex-layout.row#function12"
+        ]
+    },
+    "flex-layout.row#image12": {
+        "children": [
+            "image#time12"
+        ]
+    },
+    "image#time12": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/guilherme-cardoso-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name12": {
+        "children": [
+            "rich-text#nome12"
+        ]
+    },
+    "rich-text#nome12": {
+        "props": {
+            "text": "Guilherme Cardoso",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function12": {
+        "children": [
+            "rich-text#funcao12"
+        ]
+    },
+    "rich-text#funcao12": {
+        "props": {
+            "text": "Head of Engineering",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 12º COLABORADOR*/
+    /*INICIO 13º COLABORADOR*/
+    "slider-layout-group#13": {
+        "children": [
+            "flex-layout.row#image13",
+            "flex-layout.row#name13",
+            "flex-layout.row#function13"
+        ]
+    },
+    "flex-layout.row#image13": {
+        "children": [
+            "image#time13"
+        ]
+    },
+    "image#time13": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/rodrigo-de-gouveia-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name13": {
+        "children": [
+            "rich-text#nome13"
+        ]
+    },
+    "rich-text#nome13": {
+        "props": {
+            "text": "Rodrigo de Gouveia",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function13": {
+        "children": [
+            "rich-text#funcao13"
+        ]
+    },
+    "rich-text#funcao13": {
+        "props": {
+            "text": "Design Experience Director",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 13º COLABORADOR*/
+    /*INICIO 14º COLABORADOR*/
+    "slider-layout-group#14": {
+        "children": [
+            "flex-layout.row#image14",
+            "flex-layout.row#name14",
+            "flex-layout.row#function14"
+        ]
+    },
+    "flex-layout.row#image14": {
+        "children": [
+            "image#time14"
+        ]
+    },
+    "image#time14": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/03/ammon-cunha-150x150.jpg",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name14": {
+        "children": [
+            "rich-text#nome14"
+        ]
+    },
+    "rich-text#nome14": {
+        "props": {
+            "text": "Ammon Cunha",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function14": {
+        "children": [
+            "rich-text#funcao14"
+        ]
+    },
+    "rich-text#funcao14": {
+        "props": {
+            "text": "Head of Business Intelligence",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 14º COLABORADOR*/
+    /*INICIO 15º COLABORADOR*/
+    "slider-layout-group#15": {
+        "children": [
+            "flex-layout.row#image15",
+            "flex-layout.row#name15",
+            "flex-layout.row#function15"
+        ]
+    },
+    "flex-layout.row#image15": {
+        "children": [
+            "image#time15"
+        ]
+    },
+    "image#time15": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/barbara-cruz-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name15": {
+        "children": [
+            "rich-text#nome15"
+        ]
+    },
+    "rich-text#nome15": {
+        "props": {
+            "text": "Bárbara Cruz",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function15": {
+        "children": [
+            "rich-text#funcao15"
+        ]
+    },
+    "rich-text#funcao15": {
+        "props": {
+            "text": "Design Experience",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 15º COLABORADOR*/
+    /*INICIO 16º COLABORADOR*/
+    "slider-layout-group#16": {
+        "children": [
+            "flex-layout.row#image16",
+            "flex-layout.row#name16",
+            "flex-layout.row#function16"
+        ]
+    },
+    "flex-layout.row#image16": {
+        "children": [
+            "image#time16"
+        ]
+    },
+    "image#time16": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/ana-lebre-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name16": {
+        "children": [
+            "rich-text#nome16"
+        ]
+    },
+    "rich-text#nome16": {
+        "props": {
+            "text": "Ana Lebre",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function16": {
+        "children": [
+            "rich-text#funcao16"
+        ]
+    },
+    "rich-text#funcao16": {
+        "props": {
+            "text": "Sales Analyst",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 16º COLABORADOR*/
+    /*INICIO 17º COLABORADOR*/
+    "slider-layout-group#17": {
+        "children": [
+            "flex-layout.row#image17",
+            "flex-layout.row#name17",
+            "flex-layout.row#function17"
+        ]
+    },
+    "flex-layout.row#image17": {
+        "children": [
+            "image#time17"
+        ]
+    },
+    "image#time17": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/victor-angelotti-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name17": {
+        "children": [
+            "rich-text#nome17"
+        ]
+    },
+    "rich-text#nome17": {
+        "props": {
+            "text": "Victor Angelotti",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function17": {
+        "children": [
+            "rich-text#funcao17"
+        ]
+    },
+    "rich-text#funcao17": {
+        "props": {
+            "text": "Designer",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 17º COLABORADOR*/
+    /*INICIO 18º COLABORADOR*/
+    "slider-layout-group#18": {
+        "children": [
+            "flex-layout.row#image18",
+            "flex-layout.row#name18",
+            "flex-layout.row#function18"
+        ]
+    },
+    "flex-layout.row#image18": {
+        "children": [
+            "image#time18"
+        ]
+    },
+    "image#time18": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/02/camila-santos-150x150.png",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name18": {
+        "children": [
+            "rich-text#nome18"
+        ]
+    },
+    "rich-text#nome18": {
+        "props": {
+            "text": "Camila Santos",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function18": {
+        "children": [
+            "rich-text#funcao18"
+        ]
+    },
+    "rich-text#funcao18": {
+        "props": {
+            "text": "Sales Analyst",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    },
+    /*FIM 18º COLABORADOR*/
+    /*INICIO 19º COLABORADOR*/
+    "slider-layout-group#19": {
+        "children": [
+            "flex-layout.row#image19",
+            "flex-layout.row#name19",
+            "flex-layout.row#function19"
+        ]
+    },
+    "flex-layout.row#image19": {
+        "children": [
+            "image#time19"
+        ]
+    },
+    "image#time19": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/03/rafael-rossini-150x150.jpg",
+            "blockClass": "imgTime"
+        }
+    },
+    "flex-layout.row#name19": {
+        "children": [
+            "rich-text#nome19"
+        ]
+    },
+    "rich-text#nome19": {
+        "props": {
+            "text": "Rafael Rossini",
+            "textPosition": "center",
+            "blockClass": "nameColab"
+        }
+    },
+    "flex-layout.row#function19": {
+        "children": [
+            "rich-text#funcao19"
+        ]
+    },
+    "rich-text#funcao19": {
+        "props": {
+            "text": "Developer",
+            "textPosition": "center",
+            "blockClass": "functionColab"
+        }
+    }
+    /*FIM 19º COLABORADOR*/
+}

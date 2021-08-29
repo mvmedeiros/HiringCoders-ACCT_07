@@ -1,0 +1,109 @@
+{
+  "store.home": {
+    "blocks": [ 
+      /*
+        Blocos que constroem a page
+      */
+      "rich-text#trustedby",
+      "flex-layout.row#Icons1",
+      "flex-layout.row#Icons2"
+    ]
+  },
+  /*
+    Título da área "Trusted by_", com o markdown negrito no underline (que ficará amarelo), centralizado na página, puxando toda a estilização do "subtitle"
+  */
+  "rich-text#trustedby": {
+    "props": {
+      "text": "Trusted by**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "subtitle"
+    }
+  },
+
+  /*
+    Primeira linha que tem como filho um image-list com as cinco primeiras empresas
+  */  
+  "flex-layout.row#Icons1": {
+    "props":{
+      "marginTop": 6,
+      "blockClass": "icons1"
+    },
+    "children":[
+      "image-list#trustedLINHA1"
+    ]
+  },
+
+  /*
+    Segunda linha que tem como filho um image-list com as cinco últimas empresas
+  */  
+  "flex-layout.row#Icons2": {
+    "props":{
+      "marginTop": 6,
+      "blockClass": "icons2"
+    },
+    "children":[
+      "image-list#trustedLINHA2"
+    ]
+  },
+  /*
+    Array das cinco primeiras imagens que serão impressas na primeira linha → "flex-layout.row#Icons1"
+  */
+  "image-list#trustedLINHA1": {
+    "props": {
+      "blockClass": "iconTrusted",
+      "images": [
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_carrefour.svg",
+          "description": "Ícone Carrefour"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_samsung.svg",
+          "description": "Ícone Samsung"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_abinbev.svg",
+          "description": "Ícone ABinBev"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_stanley-black-decker.svg",
+          "description": "Ícone Stanley Black Decker"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_motorola.svg",
+          "description": "Ícone Motorola"
+        }
+      ]
+    }
+  },
+  /*
+    Array das cinco últimas imagens que serão impressas na segunda linha → "flex-layout.row#Icons2"
+  */
+  "image-list#trustedLINHA2": {
+    "props": {
+      "blockClass": "iconTrusted",
+      "images": [
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_unilever.svg",
+          "description": "Ícone Unilever"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_whirlpool.svg",
+          "description": "Ícone Whirlpool"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_universal-mg.svg",
+          "description": "Ícone Universal"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_decathlon.svg",
+          "description": "Ícone Decathlon"
+        },
+        {
+          "image": "https://acct.global/wp-content/uploads/2020/09/clients_cea.svg",
+          "description": "C&A"
+        }
+      ]
+    }
+  }
+}

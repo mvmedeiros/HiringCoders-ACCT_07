@@ -1,0 +1,10 @@
+/*
+    Customização das fotos dos colaboradores
+*/
+.imageElement--imgTime{
+    border-radius: 100%;
+    border: #dedede 3px solid;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}

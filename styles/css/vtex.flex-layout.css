@@ -1,0 +1,28 @@
+/*
+    COMEÇO CUSTOMIZAÇÃO LINHAS
+*/
+.stretchChildrenWidth{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 90%;
+}
+
+.flexRowContent{
+   justify-content: center;
+   max-width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.flexRowContent--icons2{
+    justify-content: center;
+    padding-bottom: 200px;
+ }
+
+ .flexCol--footerBlock{
+    width: fit-content;
+    height: fit-content;
+ }
+ /*
+    FIM CUSTOMIZAÇÃO LINHAS
+ */
