@@ -34,7 +34,7 @@
 */
 .paragraph{
     text-align: center;
-    align-items: center;
+    align-items: top;
 }
 /*
     Customização do paragraph dos títulos; ex.: "Trusted by_"
@@ -66,14 +66,18 @@
     Customização container de texto
 */
 .container{
-    max-height: 50px !important;
+    max-height: 130px !important;
 }
 
 /*
     Customização dos textos do footer
 */
+.container--footerContact{
+    margin-bottom: 20px;
+}
 .container--footerAddress{
     width: fit-content;
+    height: fit-content;
 }
 
 .container--footerTitle{
@@ -84,8 +88,14 @@
     vertical-align: top;
 }
 
+.wrapper--footerAddress{
+    width: fit-content;
+    height: fit-content;
+    vertical-align: top;
+}
+
 .paragraph--footerContact{
-    margin: 0 0 0 10px;
+    margin: 15px 0 0 10px;
     vertical-align: top;
     text-align: center;
     font-size: 0.9em;
@@ -112,6 +122,9 @@
     font-family: "Open Sans" !important;
     font-size: 0.85rem !important;
     color: #222;
-    margin: 1.5rem 0;
+    margin: 15px 0 15px 0;
     text-align: left;
 }
+/*
+    Fim da customização textual do footer.
+*/

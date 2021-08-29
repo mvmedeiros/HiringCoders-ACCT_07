@@ -1,4 +1,9 @@
-.socialNetworksContainer--footerSocialNetworks{
+/*
+    Customização do alinhamento do bloco de redes sociais
+    do footer.
+*/
+.socialNetworksContainer--footerBlock{
+    margin-top: 10px;
     margin-left: 15px;
     align-items: center;
 }

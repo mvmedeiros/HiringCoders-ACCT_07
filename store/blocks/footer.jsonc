@@ -23,6 +23,7 @@
   },
   "image#great-place-work": {
     "props": {
+      "blockClass":"greatPlaceWork",
       "maxWidth": 122.39,
       "maxHeight": 177.86,
       "src": "https://dev-acct.pantheonsite.io/wp-content/uploads/2021/07/selo-gptw-2021.svg"
@@ -35,7 +36,8 @@
       "rich-text#contact"
     ],
     "props":{
-      "blockClass": "footerSocialMediaBlock"
+      "blockClass": "footerBlock"//"footerSocialNetworks"
+
     }
   },
   "image#acct":{
@@ -52,7 +54,7 @@
         { "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA", "name": "Youtube" },
         { "url": "https://www.instagram.com/acct.global", "name": "Instagram" }
       ],
-      "blockClass":"footerSocialNetworks"
+      "blockClass":"footerBlock"
     }
   },
   "rich-text#contact":{
@@ -65,8 +67,7 @@
   "flex-layout.col#country-block-1":{
     "children": [
       "rich-text#country-1-name",
-      "rich-text#country-1-first-address",
-      "rich-text#country-1-second-address"
+      "rich-text#country-1-address"
     ],
     "props":{
       "blockClass": "footerBlock"
@@ -96,16 +97,10 @@
       "blockClass": "footerTitle"
     }
   },
-  "rich-text#country-1-first-address": { 
+  "rich-text#country-1-address": { 
     "props": { 
-      "text": "Al. Prof. Lucas Nogueira Garcez,\n1395 - Atibaia - SP",
+      "text": "Al. Prof. Lucas Nogueira Garcez,\n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
       "blockClass": "footerAddress"
-    }
-  },
-  "rich-text#country-1-second-address": { 
-    "props": { 
-      "text": "Av. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
-      "blockClass": "footerAddress"    
     }
   },
   "rich-text#country-2-name": { 

@@ -18,3 +18,7 @@
     filter: saturate(100%);
     transform: scale(0.8);
 }
+
+.imageElement--iconSlider{
+    display: row;
+}

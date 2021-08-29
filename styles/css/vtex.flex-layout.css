@@ -23,6 +23,21 @@
     width: fit-content;
     height: fit-content;
  }
+
+ .flexColChild--footerBlock{
+   width: fit-content;
+   height: fit-content;
+   margin: 0 0 0 0;
+}
+
+.flexColChild{
+   /* background-color: deeppink; */
+   min-width: fit-content;
+}
+
+ /* .flexColChild--footerSocialMediaBlock{
+   margin-bottom: 20px;
+ } */
  /*
     FIM CUSTOMIZAÇÃO LINHAS
  */
